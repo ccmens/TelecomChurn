@@ -6,7 +6,8 @@ It explores feature patterns, performs data cleaning and preprocessing, and buil
 ---
 
 ## 📁 Project Structure
-customer_churn_analysis/
+  ```
+  customer_churn_analysis/
 │
 ├── notebooks/ # Step-by-step Jupyter notebooks
 │ ├── 01_initial_exploration.ipynb
@@ -26,6 +27,7 @@ customer_churn_analysis/
 ├── README.md # Project documentation
 └── .gitignore # Git ignore rules
 
+  ```
 
 ---
 
@@ -74,29 +76,28 @@ customer_churn_analysis/
    ```bash
    git clone https://github.com/yourusername/customer_churn_analysis.git
    cd customer_churn_analysis
-   
-2.Set up virtual environment:
+2. Set up virtual environment:
    ```bash
-  python3 -m venv venv
-  source venv/bin/activate
-
-3.Launch Jupyter:
-  ```bash
-  jupyter notebook
-
-4.Open and run notebooks in order:
+   python3 -m venv venv
+   source venv/bin/activate
+3. Launch Jupyter:
+   ```bash
+   jupyter notebook
+   
+4. Open and run notebooks in order:
   
   01_initial_exploration → 02_feature_exploration → 03_data_cleaning → 04_modeling
 
 
 ## 📌 Future Improvements
-Refactor code into reusable .py modules (src/)
 
-Add dashboard (e.g. Streamlit) for interactive churn demo
+-Refactor code into reusable .py modules (src/)
 
-Hyperparameter tuning (GridSearchCV or Optuna)
+-Add dashboard (e.g. Streamlit) for interactive churn demo
 
-Model deployment as API or web app
+-Hyperparameter tuning (GridSearchCV or Optuna)
+
+-Model deployment as API or web app
 
 
 ## 🧑‍💻 Author
